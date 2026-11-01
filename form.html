@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Student Registration Portal</h1>
+    <h3>Student Registration Form</h3>
+    <form action="thanks.html" method="get">
+        <label for="fullname">Full Name:</label><br>
+        <input type="text" id="fullname" name="fullname" required><br><br>
+        <label for="email">Email Address:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required><br><br>
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+        <label for="dept">Select Department:</label><br>
+        <select id="dept" name="department">
+            <option>Computer Science</option>
+            <option>Electrical Engineering</option>
+            <option>Mechanical Engineering</option>
+            <option>Business Administration</option>
+        </select><br><br>
+        <input type="submit" value="Register">
+    </form>
+    <br>
+    <p><a href="index.html">Back to Main Profile</a></p>
+</body>
+</html>
